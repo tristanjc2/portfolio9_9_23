@@ -8,27 +8,27 @@ const Skills = () => {
   return (
     <section id='skills'>
         <span className='skillTitle'>What I do</span>
-        <span className='skillDesc'>loremfa-rotate-180fdsafdsafdsafdas</span>
+        <span className='skillDesc'>Front-End Developer</span>
         <div className='skillBars'>
             <div className='skillBar'>
                 <img src={UIDesign} alt='UIDesign' className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>UI/UX design</h2>
-                    <p>This is demo text, you can write your own content here.</p>
+                    <p>Create a unique color scheme and useable interface.</p>
                 </div>
             </div>
             <div className='skillBar'>
                 <img src={WebDesign} alt='WebDesign' className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>Web Design</h2>
-                    <p>This is demo text, you can write your own content here.</p>
+                    <p>Design websites that are functional and practical in everyday use cases.</p>
                 </div>
             </div>
             <div className='skillBar'>
                 <img src={AppDesign} alt='AppDesign' className='skillBarImg' />
                 <div className='skillBarText'>
                     <h2>App Design</h2>
-                    <p>This is demo text, you can write your own content here.</p>
+                    <p>Always keeping mobile friendly designs in mind is the objective.</p>
                 </div>
             </div>
         </div>
