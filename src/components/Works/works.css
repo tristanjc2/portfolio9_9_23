@@ -38,6 +38,11 @@
     margin: 0.5rem;
 }
 
+.worksImg:hover {
+    scale: 150%;
+    transition: 600ms ease-in-out;
+}
+
 .worksBtn {
     margin: 3rem 0;
     padding:0.5rem 2.5rem;
@@ -45,6 +50,7 @@
     border: none;
     border-radius: 2rem;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 @media screen and (max-width:585px) {

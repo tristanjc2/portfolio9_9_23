@@ -1,21 +1,26 @@
 import React from 'react';
 import './clients.css'
-import Walmart from '../../assets/walmart.png';
-import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
+import Django from '../../assets/django.png';
+import ReactIcon from '../../assets/react.png';
+import Python from '../../assets/python.png';
+import Csharp from '../../assets/Csharp.png';
+import VScode from '../../assets/VScode.png';
+import Unity from '../../assets/Unity.png';
+
 
 const Clients = () => {
   return (
     <section id='clientsPage'>
         <div id='clients'>
-            <h1 className='contactPageTitle'>My Clients</h1>
-            <p className='clientDesc'>Clients I have worked with</p>
+            <h1 className='contactPageTitle'>Tech Skills</h1>
+            <p className='clientDesc'>Programs or languages I work with</p>
             <div className='clientImgs'>
-                <img src={Walmart} alt='Clients' className='clientImg' />
-                <img src={Adobe} alt='Clients' className='clientImg' />
-                <img src={Microsoft} alt='Clients' className='clientImg' />
-                <img src={Facebook} alt='Clients' className='clientImg' />
+                <img src={Django} alt='Clients' className='clientImg' />
+                <img src={ReactIcon} alt='Clients' className='clientImg' />
+                <img src={Python} alt='Clients' className='clientImg' />
+                <img src={Csharp} alt='Clients' className='clientImg' />
+                <img src={VScode} alt='Clients' className='clientImg' />
+                <img src={Unity} alt='Clients' className='clientImg' />
             </div>
         </div>
     </section>
